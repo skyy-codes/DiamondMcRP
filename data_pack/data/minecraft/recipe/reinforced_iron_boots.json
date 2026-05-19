@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1001,
+      "minecraft:max_damage": 250,
+      "minecraft:item_name": "{\"text\":\"Reinforced Iron Boots\",\"italic\":false}",
+      "minecraft:equippable": {
+        "asset_id": "minecraft:reinforced_iron",
+        "slot": "boots"
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "amount": 2.5,
+            "operation": "add_value",
+            "id": "minecraft:base_armor",
+            "slot": "boots"
+          }
+        ]
+      }
+    }
+  }
+}

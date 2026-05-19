@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1001,
+      "minecraft:max_damage": 900,
+      "minecraft:item_name": "{\"text\":\"Reinforced Iron Pickaxe\",\"italic\":false}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.attack_damage",
+            "amount": 3.5,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_damage",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "amount": -2.8,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_speed",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 7.0,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1.0,
+        "damage_per_block": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1001,
+      "minecraft:max_damage": 900,
+      "minecraft:item_name": "{\"text\":\"Reinforced Iron Sword\",\"italic\":false}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.attack_damage",
+            "amount": 5.5,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_damage",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "amount": -2.4,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_speed",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  }
+}

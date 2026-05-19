@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1001,
+      "minecraft:max_damage": 300,
+      "minecraft:item_name": "{\"text\":\"Reinforced Iron Helmet\",\"italic\":false}",
+      "minecraft:equippable": {
+        "asset_id": "minecraft:reinforced_iron",
+        "slot": "helmet"
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "amount": 2.5,
+            "operation": "add_value",
+            "id": "minecraft:base_armor",
+            "slot": "helmet"
+          }
+        ]
+      }
+    }
+  }
+}
