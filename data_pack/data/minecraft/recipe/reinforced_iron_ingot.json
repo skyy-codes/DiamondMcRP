@@ -11,7 +11,11 @@
     "id": "minecraft:iron_ingot",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 1001,
+      "minecraft:custom_model_data": {
+        "floats": [
+          1001.0
+        ]
+      },
       "minecraft:item_name": "{\"text\":\"Reinforced Iron Ingot\",\"italic\":false}"
     }
   }

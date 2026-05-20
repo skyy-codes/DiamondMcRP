@@ -9,7 +9,11 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_model_data": 1001
+        "minecraft:custom_model_data": {
+          "floats": [
+            1001.0
+          ]
+        }
       }
     },
     "S": {
@@ -20,20 +24,24 @@
     "id": "minecraft:iron_sword",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 1001,
+      "minecraft:custom_model_data": {
+        "floats": [
+          1001.0
+        ]
+      },
       "minecraft:max_damage": 900,
       "minecraft:item_name": "{\"text\":\"Reinforced Iron Sword\",\"italic\":false}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 5.5,
             "operation": "add_value",
             "id": "minecraft:base_attack_damage",
             "slot": "mainhand"
           },
           {
-            "type": "minecraft:generic.attack_speed",
+            "type": "minecraft:attack_speed",
             "amount": -2.4,
             "operation": "add_value",
             "id": "minecraft:base_attack_speed",
