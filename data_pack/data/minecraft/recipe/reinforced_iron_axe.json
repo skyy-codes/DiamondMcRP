@@ -22,11 +22,7 @@
     "id": "minecraft:iron_axe",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": {
-        "floats": [
-          1001.0
-        ]
-      },
+      "minecraft:item_model": "minecraft:reinforced_iron_axe",
       "minecraft:max_damage": 900,
       "minecraft:item_name": {
         "text": "Reinforced Iron Axe",
