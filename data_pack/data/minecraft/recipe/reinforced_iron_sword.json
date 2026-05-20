@@ -1,13 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_sword"
-    },
-    {
-      "item": "minecraft:cyan_dye"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "R",
+    "S"
   ],
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:custom_model_data": 1001
+      }
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
   "result": {
     "id": "minecraft:iron_sword",
     "count": 1,

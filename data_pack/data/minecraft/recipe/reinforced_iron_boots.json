@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_boots"
-    },
-    {
-      "item": "minecraft:cyan_dye"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    "R R"
   ],
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:custom_model_data": 1001
+      }
+    }
+  },
   "result": {
     "id": "minecraft:iron_boots",
     "count": 1,

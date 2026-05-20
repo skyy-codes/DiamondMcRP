@@ -1,13 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:cyan_dye"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IDI"
   ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "D": "minecraft:diamond"
+  },
   "result": {
     "id": "minecraft:iron_ingot",
     "count": 1,
