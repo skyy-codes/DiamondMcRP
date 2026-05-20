@@ -8,7 +8,7 @@
     "D": "minecraft:diamond"
   },
   "result": {
-    "id": "minecraft:iron_ingot",
+    "id": "minecraft:prismarine_shard",
     "count": 1,
     "components": {
       "minecraft:item_model": "minecraft:reinforced_iron_ingot",

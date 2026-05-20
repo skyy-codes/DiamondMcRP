@@ -7,7 +7,7 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:iron_ingot",
+      "item": "minecraft:prismarine_shard",
       "components": {
         "minecraft:custom_model_data": {
           "floats": [
