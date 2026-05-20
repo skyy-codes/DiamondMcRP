@@ -16,10 +16,8 @@
         "text": "Reinforced Iron Ingot",
         "italic": false
       },
-      "minecraft:custom_model_data": {
-        "floats": [
-          1001.0
-        ]
+      "minecraft:custom_data": {
+        "reinforced": true
       }
     }
   }

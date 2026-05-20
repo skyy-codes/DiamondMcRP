@@ -9,10 +9,8 @@
     "R": {
       "item": "minecraft:prismarine_shard",
       "components": {
-        "minecraft:custom_model_data": {
-          "floats": [
-            1001.0
-          ]
+        "minecraft:custom_data": {
+          "reinforced": true
         }
       }
     },

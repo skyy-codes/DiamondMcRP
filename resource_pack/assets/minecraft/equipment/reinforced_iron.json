@@ -2,12 +2,12 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "minecraft:reinforced_iron"
+        "texture": "minecraft:humanoid/reinforced_iron"
       }
     ],
     "humanoid_leggings": [
       {
-        "texture": "minecraft:reinforced_iron"
+        "texture": "minecraft:humanoid_leggings/reinforced_iron"
       }
     ]
   }
