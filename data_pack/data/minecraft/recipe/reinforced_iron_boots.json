@@ -8,7 +8,11 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
+        "minecraft:custom_model_data": {
+          "floats": [
+            1001.0
+          ]
+        }
       }
     }
   },
@@ -16,9 +20,16 @@
     "id": "minecraft:iron_boots",
     "count": 1,
     "components": {
-      "minecraft:item_model": "minecraft:reinforced_iron_boots",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1001.0
+        ]
+      },
       "minecraft:max_damage": 250,
-      "minecraft:item_name": "{\"text\":\"Reinforced Iron Boots\",\"italic\":false}",
+      "minecraft:item_name": {
+        "text": "Reinforced Iron Boots",
+        "italic": false
+      },
       "minecraft:equippable": {
         "asset_id": "minecraft:reinforced_iron",
         "slot": "boots"

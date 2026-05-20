@@ -9,7 +9,11 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
+        "minecraft:custom_model_data": {
+          "floats": [
+            1001.0
+          ]
+        }
       }
     }
   },
@@ -17,9 +21,16 @@
     "id": "minecraft:iron_chestplate",
     "count": 1,
     "components": {
-      "minecraft:item_model": "minecraft:reinforced_iron_chestplate",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1001.0
+        ]
+      },
       "minecraft:max_damage": 400,
-      "minecraft:item_name": "{\"text\":\"Reinforced Iron Chestplate\",\"italic\":false}",
+      "minecraft:item_name": {
+        "text": "Reinforced Iron Chestplate",
+        "italic": false
+      },
       "minecraft:equippable": {
         "asset_id": "minecraft:reinforced_iron",
         "slot": "chestplate"

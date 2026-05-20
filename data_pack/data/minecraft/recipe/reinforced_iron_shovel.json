@@ -9,20 +9,29 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
+        "minecraft:custom_model_data": {
+          "floats": [
+            1001.0
+          ]
+        }
       }
     },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:iron_shovel",
     "count": 1,
     "components": {
-      "minecraft:item_model": "minecraft:reinforced_iron_shovel",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1001.0
+        ]
+      },
       "minecraft:max_damage": 900,
-      "minecraft:item_name": "{\"text\":\"Reinforced Iron Shovel\",\"italic\":false}",
+      "minecraft:item_name": {
+        "text": "Reinforced Iron Shovel",
+        "italic": false
+      },
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
