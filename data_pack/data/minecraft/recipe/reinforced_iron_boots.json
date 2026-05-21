@@ -6,36 +6,34 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:prismarine_shard",
+      "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_data": {
-          "reinforced": true
-        }
+        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
       }
     }
   },
   "result": {
     "id": "minecraft:iron_boots",
-    "count": 1,
     "components": {
       "minecraft:item_model": "minecraft:reinforced_iron_boots",
-      "minecraft:max_damage": 250,
       "minecraft:item_name": {
         "text": "Reinforced Iron Boots",
         "italic": false
       },
+      "minecraft:max_damage": 500,
+      "minecraft:damage": 0,
       "minecraft:equippable": {
-        "asset_id": "minecraft:reinforced_iron",
-        "slot": "boots"
+        "slot": "feet",
+        "asset_id": "minecraft:reinforced_iron"
       },
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:armor",
+            "type": "minecraft:player.armor",
             "amount": 2.5,
             "operation": "add_value",
-            "id": "minecraft:base_armor",
-            "slot": "boots"
+            "id": "minecraft:armor",
+            "slot": "feet"
           }
         ]
       }

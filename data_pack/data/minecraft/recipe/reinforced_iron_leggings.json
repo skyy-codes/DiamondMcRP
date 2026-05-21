@@ -7,36 +7,34 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:prismarine_shard",
+      "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_data": {
-          "reinforced": true
-        }
+        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
       }
     }
   },
   "result": {
     "id": "minecraft:iron_leggings",
-    "count": 1,
     "components": {
       "minecraft:item_model": "minecraft:reinforced_iron_leggings",
-      "minecraft:max_damage": 350,
       "minecraft:item_name": {
         "text": "Reinforced Iron Leggings",
         "italic": false
       },
+      "minecraft:max_damage": 500,
+      "minecraft:damage": 0,
       "minecraft:equippable": {
-        "asset_id": "minecraft:reinforced_iron",
-        "slot": "leggings"
+        "slot": "legs",
+        "asset_id": "minecraft:reinforced_iron"
       },
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:armor",
+            "type": "minecraft:player.armor",
             "amount": 5.5,
             "operation": "add_value",
-            "id": "minecraft:base_armor",
-            "slot": "leggings"
+            "id": "minecraft:armor",
+            "slot": "legs"
           }
         ]
       }

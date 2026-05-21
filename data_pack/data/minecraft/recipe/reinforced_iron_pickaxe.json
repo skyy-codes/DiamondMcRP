@@ -7,53 +7,35 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:prismarine_shard",
+      "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_data": {
-          "reinforced": true
-        }
+        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
       }
     },
-    "S": "minecraft:stick"
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "minecraft:iron_pickaxe",
-    "count": 1,
     "components": {
       "minecraft:item_model": "minecraft:reinforced_iron_pickaxe",
-      "minecraft:max_damage": 900,
       "minecraft:item_name": {
         "text": "Reinforced Iron Pickaxe",
         "italic": false
       },
+      "minecraft:max_damage": 500,
+      "minecraft:damage": 0,
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:attack_damage",
-            "amount": 3.5,
+            "type": "minecraft:player.attack_damage",
+            "amount": 5,
             "operation": "add_value",
-            "id": "minecraft:base_attack_damage",
-            "slot": "mainhand"
-          },
-          {
-            "type": "minecraft:attack_speed",
-            "amount": -2.8,
-            "operation": "add_value",
-            "id": "minecraft:base_attack_speed",
+            "id": "minecraft:attack_damage",
             "slot": "mainhand"
           }
         ]
-      },
-      "minecraft:tool": {
-        "rules": [
-          {
-            "blocks": "#minecraft:mineable/pickaxe",
-            "speed": 7.0,
-            "correct_for_drops": true
-          }
-        ],
-        "default_mining_speed": 1.0,
-        "damage_per_block": 1
       }
     }
   }

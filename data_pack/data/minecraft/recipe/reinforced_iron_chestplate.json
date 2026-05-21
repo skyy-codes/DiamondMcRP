@@ -7,36 +7,34 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:prismarine_shard",
+      "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_data": {
-          "reinforced": true
-        }
+        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
       }
     }
   },
   "result": {
     "id": "minecraft:iron_chestplate",
-    "count": 1,
     "components": {
       "minecraft:item_model": "minecraft:reinforced_iron_chestplate",
-      "minecraft:max_damage": 400,
       "minecraft:item_name": {
         "text": "Reinforced Iron Chestplate",
         "italic": false
       },
+      "minecraft:max_damage": 500,
+      "minecraft:damage": 0,
       "minecraft:equippable": {
-        "asset_id": "minecraft:reinforced_iron",
-        "slot": "chestplate"
+        "slot": "chest",
+        "asset_id": "minecraft:reinforced_iron"
       },
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:armor",
-            "amount": 7.0,
+            "type": "minecraft:player.armor",
+            "amount": 7,
             "operation": "add_value",
-            "id": "minecraft:base_armor",
-            "slot": "chestplate"
+            "id": "minecraft:armor",
+            "slot": "chest"
           }
         ]
       }
