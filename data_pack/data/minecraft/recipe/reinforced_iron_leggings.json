@@ -9,14 +9,14 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
+        "minecraft:custom_model_data": 1
       }
     }
   },
   "result": {
     "id": "minecraft:iron_leggings",
     "components": {
-      "minecraft:item_model": "minecraft:reinforced_iron_leggings",
+      "minecraft:custom_model_data": 1,
       "minecraft:item_name": {
         "text": "Reinforced Iron Leggings",
         "italic": false

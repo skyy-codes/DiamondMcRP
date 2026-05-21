@@ -8,14 +8,14 @@
     "R": {
       "item": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:reinforced_iron_ingot"
+        "minecraft:custom_model_data": 1
       }
     }
   },
   "result": {
     "id": "minecraft:iron_helmet",
     "components": {
-      "minecraft:item_model": "minecraft:reinforced_iron_helmet",
+      "minecraft:custom_model_data": 1,
       "minecraft:item_name": {
         "text": "Reinforced Iron Helmet",
         "italic": false
